@@ -7,11 +7,9 @@ import java.util.ArrayList;
 
 public class StudentTest {
 
-
-    ArrayList<Integer> testArrayList = new ArrayList<>();
-
     @Test
     public void studentClassMethodTest(){
+        ArrayList<Integer> testArrayList = new ArrayList<>();
         Student Isaiah = new Student("Isaiah", 1);
         Assert.assertTrue(Isaiah.getName() == "Isaiah");
         Assert.assertTrue(Isaiah.getId() == 1);
